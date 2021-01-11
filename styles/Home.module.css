@@ -1,5 +1,19 @@
-/* .home {
-  background: red;
-  width: 80%;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-} */
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0 10px;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+  color: #FFF;
+}
