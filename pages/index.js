@@ -1,4 +1,6 @@
 import Head from "next/head";
+import ButtonSearch from '../components/ButtonSearch'
+
 import styles from "../styles/home.module.css";
 
 export default function Home() {
@@ -16,6 +18,11 @@ export default function Home() {
             MR Weather
           </h1>
         </div>
+
+        <ButtonSearch/>
+        <button className={styles.btnLocation}>
+          <span>Obter Localização</span>
+        </button>
       </main>
     </>
   );
