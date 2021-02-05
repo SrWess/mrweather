@@ -9,9 +9,11 @@
 .logo {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .title {
+  font-size: 2rem;
   margin: 0px 10px;
   letter-spacing: -0.05em;
   font-weight: bold;
@@ -29,4 +31,37 @@
   font-weight: bold;
   cursor: pointer;
   font-size: 0.9rem;
+}
+
+.btnLocation:hover {
+  background-color: #090d1f;
+  transition: all 0.3s ease-in;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ResultTemp {
+  background-color: #FFF;
+  width: 60%;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.containerDetails {
+  width: 40%;
+}
+
+.detailsWeather {
+  background-color: #FFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.detailsAir {
+  background-color: #FFF;
+  border-radius: 5px;
 }

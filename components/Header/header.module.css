@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin: 0px 10px;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+  color: #FFF;
+}
