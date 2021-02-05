@@ -14,9 +14,9 @@ export default function Home() {
       <main className={styles.home}>
         <div className={styles.logo}>
           <img src="/images/logo.png" alt="Logo" />
-          <h1 className={styles.title}>
+          <p className={styles.title}>
             MR Weather
-          </h1>
+          </p>
         </div>
 
         <ButtonSearch/>
